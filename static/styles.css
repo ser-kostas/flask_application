@@ -1,0 +1,171 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, ol, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #212529; /* Dark text */
+    padding: 0;
+    margin: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff; /* Blue link */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+/* Navbar */
+.navbar {
+    background-color: #e3f2fd; /* Light blue background */
+    border-bottom: 1px solid #ddd; /* Subtle border */
+    padding: 10px 15px;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: #212529; /* Dark gray */
+}
+
+.navbar .navbar-brand:hover {
+    color: #0056b3; /* Darker blue */
+}
+/* Content Block */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff; /* White background for contrast */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Buttons */
+button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Add Button Styling */
+.btn-primary {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gray background */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Specific Colors for Buttons */
+.btn-warning {
+    background-color: #ffc107; /* Yellow for Edit */
+    color: #212529; /* Dark text */
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Darker yellow for hover */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red for Delete */
+}
+
+.btn-danger:hover {
+    background-color: #bd2130; /* Darker red for hover */
+}
+
+
+/* Forms */
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow */
+}
+
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin: 20px 0; /* Add some space above and below the table */
+    border: 1px solid #ddd; /* Add a border around the table */
+    background-color: #fff; /* White background for contrast */
+}
+
+table th, table td {
+    padding: 15px; /* Add padding inside cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Add border between cells */
+}
+
+table th {
+    background-color: #f8f9fa; /* Light gray for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Slightly different color for alternate rows */
+}
+
+table tbody tr:hover {
+    background-color: #e3f2fd; /* Highlight row on hover */
+}
+
+table td form {
+    display: inline-block; /* Ensures buttons stay aligned side by side */
+    margin: 0; /* Removes any extra spacing */
+    padding: 0;
+}
